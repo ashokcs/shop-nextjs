@@ -2,20 +2,22 @@
   "name": "shop-nextjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "cacheDirectories": [
-    ".next/cache"
-  ],
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
-    "now-build": "next build",
     "heroku-postbuild": "npm run build"
+  },
+  "engines": {
+    "node": "10"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mars/heroku-nextjs.git"
+  },
   "devDependencies": {
     "next": "^9.5.5",
     "react": "^17.0.2",
