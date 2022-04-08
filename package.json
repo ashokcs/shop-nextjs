@@ -1,11 +1,12 @@
 {
   "name": "shop-nextjs",
   "version": "1.0.0",
+  "main": "server.js",
   "description": "",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next"
+    "start": "next start"
   },
   "engines": {
     "node": "10"
@@ -23,8 +24,8 @@
     "react-dom": "^17.0.2"
   },
   "dependencies": {
-    "next": "^9.5.5",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "next": "^9.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }
